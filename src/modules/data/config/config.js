@@ -1,11 +1,11 @@
 const config = {
   header: {
-    name: 'Abhimanyu Singh Tanwar',
+    name: 'Gabriel Barboza',
     menu: ['ABOUT','SKILLS','EXPERIENCE','PROJECTS','CERTIFICATES','EDUCATION']
   },
   github: {
-    username: 'abhimanyud3dx', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    username: 'gabrieIbarboza',
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -13,31 +13,31 @@ const config = {
     },
   },
   social: {
-    github: 'abhimanyud3dx',
-    trailhead: 'abhimanyudx',
-    linkedin: 'abhimanyud3dx',
-    twitter: 'abhimanyud3dx',
-    facebook: 'abhimanyu.singhtanwar',
-    instagram: 'abhimanyud3dx',
-    medium: 'abhimanyu.singh.d3dx',
-    dev: 'abhimanyud3dx',
-    artstation:'abhimanyud3dx',
-    stackoverflow: '4438108/abhimanyud3dx', // format: userid/username
-    website: 'https://www.superqbit.com',
-    phone: '+918852055355',
-    email: 'abhimanyud3dx@gmail.com',
-    location: 'Jaipur, Rajasthan',
+    github: 'gabrieIbarboza',
+    trailhead: 'gabrieibarboza',
+    linkedin: 'gabriei-barboza',
+    twitter: 'BarbozaGab53225',
+    facebook: '',
+    instagram: 'gabrielzklark',
+    medium: '',
+    dev: '',
+    artstation:'',
+    stackoverflow: '', // format: userid/username
+    website: 'https://gabrieibarboza.github.io/',
+    phone: '',
+    email: 'gabrielrochabarboza@gmail.com',
+    location: 'São Paulo, Brazil',
   },
 
-  resume: 'https://docs.google.com/document/d/e/2PACX-1vSx5p_8pCfhOQ_vQCW67a2xZ_yFQ-REYbKE5SLsNT9pmCQOO5mQa6XUxhvSSBdSVunPWM00LJNy3lCk/pub',
+  resume: 'https://gabrieibarboza.github.io/MyPortfolio/assets/docs/GabrielBarboza2023.pdf',
   // Empty fileUrl will hide the `Download Resume` button.
   skills: [
     'Salesforce',
     'LWC',
     'Aura',
-    'Visualforce',
     'Apex',
     'SOQL',
+    'SOSL',
     'Node.js',
     'Javascript',
     'Git',
@@ -47,96 +47,69 @@ const config = {
   // Remove experiences to hide section
   experiences: [
     {
-      name: 'TGS ', 
-      title: 'Module Lead',
-      from: 'April 2019',
-      to: 'Nov 2023',
-      link: 'https://teksystems.com/',
-      location: 'Hyderabad, Telangana',
-      description: 'Working as a Salesforce tech lead and architect.'
+      name: 'Vivo (Telefónica Brasil) ', 
+      title: 'Salesforce Developer',
+      from: 'March 2025',
+      to: 'May 2026',
+      link: 'https://www.vivo.com.br/',
+      location: 'São Paulo, Brazil',
+      description: ''
     },
     {
-      name: 'Appirio - A Wipro Company',
+      name: 'Junior Salesforce Developer',
       title: 'Consultant',
-      from: 'April 2016',
-      to: 'April 2019',
-      link: 'https://www.appirio.com/',
-      location: 'Jaipur, Rajasthan',
-      description: 'joined as intern and laddered up to Consultant'
+      from: 'March 2024',
+      to: 'February 2025',
+      link: 'https://www.vivo.com.br/',
+      location: 'São Paulo, Brazil',
+      description: ''
+    },
+    {
+      name: 'Salesforce Developer Intern',
+      title: 'Consultant',
+      from: 'March 2024',
+      to: 'February 2025',
+      link: 'https://www.vivo.com.br/',
+      location: 'São Paulo, Brazil',
+      description: 'Developed comprehensive Salesforce expertise (Admin, Apex, LWC, OmniStudio) through hands-on POC development, technical presentations, and agile squad collaboration, while advancing professional and soft skills.'
     },
   ],
   // Remove certifications to hide section
   certifications: [
     {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BB2nq&oid=00DF0000000gZsu&lastMod=1638349821000',
-      title: 'Sharing and Visibility Designer',
-      year: 'August 2021',
-      link: 'https://trailhead.salesforce.com/credentials/sharingandvisibilityarchitect'
+      icon: 'https://drm.my.salesforce.com/servlet/servlet.ImageServer?id=015Rf00000MA9LY&oid=00DF0000000gZsu&lastMod=1746780949000',
+      title: 'Salesforce Certified Platform Developer I',
+      year: 'January 2025',
+      link: 'https://trailheadacademy.salesforce.com/certificate/exam-agentforce-specialist---AI-201'
     },
     {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000A5MtX&oid=00DF0000000gZsu&lastMod=1617267315000',
-      title: 'Salesforce JavaScript Developer I',
-      year: 'December 2020',
-      link: 'https://trailhead.salesforce.com/credentials/javascriptdeveloperi'
+      icon: 'https://drm.my.salesforce.com/servlet/servlet.ImageServer?id=015Rf00000MA14b&oid=00DF0000000gZsu&lastMod=1746774124000',
+      title: 'Salesforce Certified Agentforce Specialist',
+      year: 'November 2025',
+      link: 'https://trailheadacademy.salesforce.com/certificate/exam-platform-dev1---Plat-Dev-201'
     },
     {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mu6&oid=00DF0000000gZsu&lastMod=1617274648000',
-      title: 'Salesforce Certified Tableau CRM and Einstein Discovery Consultant',
-      year: 'June 2020',
-      link: 'https://trailhead.salesforce.com/credentials/tableaucrmandeinsteindiscoveryconsultant'
-    },
-    {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mu4&oid=00DF0000000gZsu&lastMod=1617275568000',
-      title: 'Salesforce Experience Cloud Consultant',
-      year: 'October 2019',
-      link: 'https://trailhead.salesforce.com/credentials/experiencecloudconsultant'
-    },
-    {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mtn&oid=00DF0000000gZsu&lastMod=1617268355000',
-      title: 'Salesforce Service Cloud Consultant',
-      year: 'October 2019',
-      link: 'https://trailhead.salesforce.com/credentials/servicecloudconsultant'
-    },
-    {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mth&oid=00DF0000000gZsu&lastMod=1617268556000',
-      title: 'Salesforce Platform Developer II',
-      year: 'April 2019',
-      link: 'https://trailhead.salesforce.com/credentials/platformdeveloperii'
-    },
-    {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mtz&oid=00DF0000000gZsu&lastMod=1617268528000',
-      title: 'Salesforce Platform Developer I ',
-      year: 'June 2018',
-      link: 'https://trailhead.salesforce.com/credentials/platformdeveloperi'
-    },
-    {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mtl&oid=00DF0000000gZsu&lastMod=1617268490000',
-      title: 'Salesforce Platform App Builder',
-      year: 'March 2018',
-      link: 'https://trailhead.salesforce.com/credentials/platformappbuilder'
-    },
-    {
-      icon: 'https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mu5&oid=00DF0000000gZsu&lastMod=1617267801000',
-      title: 'Salesforce Admin',
-      year: 'September 2017',
-      link: 'https://trailhead.salesforce.com/credentials/administrator'
+      icon: 'https://drm.my.salesforce.com/servlet/servlet.ImageServer?id=015Rf00000YMdGt&oid=00DF0000000gZsu&lastMod=1770009252000',
+      title: 'Salesforce Certified AI Associate',
+      year: 'January 2025',
+      link: 'https://trailhead.salesforce.com/credentials/aiassociate'
     },
   ],
   // Remove education to hide section
   education: [
     {
-      name: 'JECRC University',
-      title: 'Masters in Computer Application',
-      from: 'July 2014',
-      to: 'April 2016',
-      location: 'Jaipur, Rajasthan'
+      name: 'IFSP (Federal Institute of São Paulo)',
+      title: 'Technologist, Software Analysis and Development',
+      from: 'Feb 2023',
+      to: 'Jun 2025',
+      location: 'São Paulo, Brazil'
     },
     {
-      name: 'S.S Jain Subodh PG College',
-      title: 'Bachelor in Computer Application',
-      from: 'July 2011',
-      to: 'April 2014',
-      location: 'Jaipur, Rajasthan'
+      name: 'Etec de Guarulhos',
+      title: 'Technical, System Development',
+      from: 'Jan 2020',
+      to: 'Dec 2022',
+      location: 'São Paulo, Brazil'
     },
   ],
   // To hide the `My Projects` section, keep it empty.
@@ -156,16 +129,16 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
+  /*blog: {
     source: 'dev', // medium | dev
     username: 'abhimanyudx', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
-  },
+  },*/
   googleAnalytics: {
-    id: 'UA-31274040-4', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   formspree: {
-    id: 'xqkopjzr', // Formspree Id for Contact us Form (https://formspree.io)
+    id: '', // Formspree Id for Contact us Form (https://formspree.io). eg: xqkopjzr
   },
   themeConfig: {
     defaultTheme: 'light', // default for stock theme
